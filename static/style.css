@@ -1,0 +1,115 @@
+*{
+  margin: 0; padding:0; box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.site-header {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('tp.jpg');
+  background-position: center;
+  background-size: cover;
+
+  
+
+}
+
+
+nav{
+  width: 100%; height: 100px;
+  /*background-color:  red;*/
+  display: flex; color: white;
+  
+}
+
+.logo{
+  width: 50%;
+  height: 100px;
+  
+}
+
+.logo h1{
+  line-height: 100px;
+  padding-left: 50px;
+}
+
+.menu{
+  width: 50%; height: 100px;
+}
+
+.menu ul{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items:  center;
+}
+section{ display: flex;  }
+
+.leftside { width: 45%; height:50%; overflow: hidden; margin-top: 20px;}
+
+.leftside img{  width: 600px;  height: 500px;
+ }
+
+.rightside{ width: 55%; height: 300px; color: white; text-align: center; margin-top: 80px; padding: 40px;}
+
+.rightside h1{ text-align: center;
+  color: #ffffff;
+  font-size: 50px;
+  font-weight: 900;
+  text-transform: uppercase; } 
+
+.rightside p {  
+  font-size: 1.1rem; padding: 30px 0; }
+
+.rightside button{   font-size: 17px;
+  font-weight: 600;
+  color: white;
+  text-transform: uppercase;
+  background: linear-gradient(57deg, #00C6A7 , #1E4D92 ); 
+  border-radius: 4px 4px 4px 4px;
+  padding: 20px 35px ; 
+}
+
+
+
+.rightside button:hover{
+    background: linear-gradient(57deg, #1E4D92, #00C6A7 );   
+    
+}
+.header{
+  font-family: sans-serif;
+  text-align: center;
+  color: aliceblue;
+}
+button{
+  font-size: 17px;
+  font-weight: 600;
+  color: white;
+  text-transform: uppercase;
+  background: linear-gradient(57deg, #00C6A7 , #1E4D92 ); 
+  border-radius: 4px 4px 4px 4px;
+  padding: 20px 35px ; 
+  text-align: center;
+  
+
+}
+button:hover{
+  background: linear-gradient(57deg, #1E4D92, #00C6A7 );
+}
+#centre{
+ text-align: center; 
+}
+.start-header{
+  background-position: center;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(tp1.jpg);
+  width: 100%;
+  height: 100vh;
+}
+.start-header1{
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(.jpg);
+  background-repeat: no-repeat;
+  background-attachment:fixed; background-size: cover;
+}
