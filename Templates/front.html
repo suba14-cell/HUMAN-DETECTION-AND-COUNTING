@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title></title>
+ <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='style.css')}}">
+ <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+</head>
+<body>
+
+<header class="site-header clearfix">
+ <nav>
+  <div class="logo">
+   <h1>CountAI</h1>
+  </div>
+  
+ </nav>
+ <section>
+    <div class="leftside"> 
+       <img src="{{url_for('static',filename='bg3.jpg')}}">
+       </div>
+         <div class="rightside"> 
+   <h1>REAL TIME HUMAN DETECTION AND COUNTING</h1>
+   <a href="{{ url_for('startpg') }}">
+   <button>Start</button></a>
+
+   <a href="JavaScript:window.close()">
+   <button>Exit</button></a>
+
+
+  </div>
+  
+ </section>
+
+</header>
+
+
+</body>
+</html>
